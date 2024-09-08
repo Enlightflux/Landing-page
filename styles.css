@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid yellowgreen;
+  font-family: suse, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  padding: 0px 20px;
+  /* max-width: 1200px;
+  margin: 0 auto; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0px 20px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  padding: 10px 30px 10px 0px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  background-color: #1f2937;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.textside {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 50%;
+  color: #f9faf8;
+}
+
+.heroimage {
+  flex-grow: 1;
+}
+.main-headline {
+  font-size: 40px;
+  font-weight: 100;
+}
+.main-headline span {
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero button {
+  background-color: #3882f6;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+  font-size: 13px;
+  border: none;
+}
+
+.first-segment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  gap: 20px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.images .img1-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-segment {
+  background-color: #efe7eb;
+  height: 300px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #3882f6;
+}
+.quote {
+  width: 60%;
+  line-height: 35px;
+  color: gray;
+  font-style: italic;
+}
+
+.thorrr {
+  align-self: center;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+}
+.thorrr:hover {
+  color: red;
+}
+
+.third-segment {
+  height: 300px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.bigbox {
+  background-color: #3882f6;
+  display: flex;
+  width: 80%;
+  height: 45%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+.bigbox button {
+  border-radius: 10px;
+  padding: 10px 25px;
+  border: 2px solid white;
+  color: white;
+  background-color: #3882f6;
+}
+
+.footer {
+  height: 60px;
+  background-color: #1f2937;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
