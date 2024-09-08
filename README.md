@@ -1,4 +1,5 @@
 # It is a practice file from odin project.
-It is all about flexbox and stuffs.
-## Alternative Data
-I am creating something not exact to the provided image but inspired by that, I am going to create another website, using the same tools and tips that needed for the provided design.
+It is about a website where you can find immediate support and services on various topics ranging from healthcare and safety to trekking routes and hotel availabilities.
+## Live link
+A w-i-p site can be seen here: prakashdulal.com.np. It is currently under development, and that I am just a basic learner, it can be messy at times. 
+DNS cache may delay live-status
