@@ -37,7 +37,7 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  height: 350px;
+
   background-color: #1f2937;
   align-items: center;
   padding: 0px 40px;
@@ -49,6 +49,7 @@ body {
   gap: 15px;
   flex-basis: 50%;
   color: #f9faf8;
+  padding-bottom: 20px;
 }
 
 .heroimage {
