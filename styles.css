@@ -7,12 +7,6 @@
   font-size: 14px;
 }
 
-body {
-  /* padding: 0px 20px; */
-  /* max-width: 1200px;
-  margin: 0 auto; */
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -37,7 +31,6 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-
   background-color: #1f2937;
   align-items: center;
   padding: 0px 40px;
@@ -47,14 +40,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  flex-basis: 50%;
+  flex-basis: 90%;
   color: #f9faf8;
   padding-bottom: 20px;
 }
 
-.heroimage {
+.heroimage img {
   flex-grow: 1;
+  width: 100%;
+  border-radius: 50px;
 }
+
 .main-headline {
   font-size: 40px;
   font-weight: 100;
@@ -62,6 +58,11 @@ body {
 .main-headline span {
   font-size: 40px;
   font-weight: 700;
+}
+span {
+  font-weight: 700;
+  font-style: normal;
+  color: #3882f6;
 }
 .hero button {
   background-color: #3882f6;
@@ -79,18 +80,55 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 300px;
-  gap: 20px;
 }
 
 .images {
   display: flex;
   justify-content: space-around;
   gap: 40px;
+  width: 60%;
 }
 
-.images .img1-container {
+.images .img1-container,
+.img2-container,
+.img3-container,
+.img4-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 1px solid #3882f6;
+  border-radius: 20px;
+}
+
+.img2 img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 1px solid #3882f6;
+  border-radius: 20px;
+}
+
+.img3 img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 1px solid #3882f6;
+  border-radius: 20px;
+}
+
+.img4 img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 1px solid #3882f6;
+  border-radius: 20px;
 }
 
 .second-segment {
@@ -143,7 +181,15 @@ body {
   color: white;
   background-color: #3882f6;
 }
-
+.buttons {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+}
+.buttons .login {
+  background-color: white;
+  color: #3882f6;
+}
 .footer {
   height: 60px;
   background-color: #1f2937;
